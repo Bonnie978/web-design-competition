@@ -1,0 +1,270 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #EEDFCC;
+}
+
+
+
+@font-face {
+    font-family: 杨玉环名字;
+    src: url("TTF/杨玉环名字.TTF");
+} 
+@font-face {
+    font-family: 杨玉环介绍;
+    src: url("TTF/杨玉环介绍.TTF");
+} 
+@font-face {
+    font-family: 杨玉环诗;
+    src: url("TTF/杨玉环诗.TTF");
+}
+@font-face {
+    font-family: 李白诗;
+    src: url("TTF/李白诗.TTF");
+}
+
+
+
+.all {
+/*	border: 1px solid red;*/
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.nav {
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	border: 1px solid black;
+	border-radius: 25px;
+	/*background-color: blue;*/
+	top: 90%;
+	left: 45%;
+}
+.nav-1,
+.nav-2 {
+	width: 18%;
+	height: 65%;
+	float: left;
+	margin-left: 21%;
+	margin-top: 3%;
+	background-color: grey;
+	text-align: center;
+	border-radius: 50%;
+}
+
+
+
+.return {
+	width: 5%;
+	height: 10%;
+	border: 1px solid grey;
+	position: absolute;
+	top: 88%;
+	left: 90%;
+	border-radius: 0% 50% 0% 50%;
+	line-height: 345%;
+	background-color: #FDF5E6;
+}
+.return p {
+	font-size: 36px;
+	text-align: center;
+}
+
+
+
+.bag1 {
+	/*display: inline-block;*/
+/*	border: 1px solid black;*/
+/*	background-color: blue;*/
+	width: 95%;
+	height: 80%;
+	margin-left: 2.5%;
+	/*margin-top: %;*/
+	margin-top: 3%;
+	position: relative;
+	background-image: url(img/1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+}
+.middle {
+	width: 100%;
+	height: 100%; 
+/*	background-color: deeppink;*/
+	float:left;
+}
+.people-pic {
+	width: 25%;
+	height: 65%;
+	margin-left: 46%;
+	background-color: black;
+	margin-top: 8%;
+	border-radius: 25px; 
+}
+.people-pic img {
+	width: 100%;
+	height: 100%;
+	border-radius: 25px; 
+}
+.left { 
+	width: 47%;
+	height: 100%;
+/*	background-color: blue;*/
+	float:left;
+	margin-left:-100%;
+}
+.people-name {
+	width: 20%;
+	height: 10%;
+	margin-top: 10%;
+	margin-left: 6%;
+}
+.people-name span {
+	font-size: 135px;
+	font-weight: bold;
+	font-family: 杨玉环名字;
+	color: indianred;
+}
+.people-intro {
+	width: 68%;
+	height: 75%;
+	margin-top: -13%;
+	margin-left: 25%;
+}
+.people-intro p {
+	font-size: 42px;
+	font-weight: bold;
+	text-indent: 2em;
+	line-height: 1.2;
+	display: block;
+	font-family: 杨玉环介绍;
+}
+.right {
+	width: 28%;
+	height: 100%;
+	float:left;
+	margin-left: -28%;
+}
+.poem {
+/*	border: 1px solid black;*/
+	width: 80%;
+	height: 65%;
+	margin-left: 6%;
+	margin-top: 32%;
+}
+.poem p {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: 杨玉环诗;
+}
+.poem1 {
+	border-right: 1px solid brown;
+	width: 65px;
+	float: left;
+	margin-left: 8%;
+	position: relative;
+}
+.poem2 {
+	border-right: 1px solid orangered;
+	width: 65px;
+	float: left;
+	margin-left: 8%;
+	position: relative;
+}
+
+.poem3 {
+	border-right: 1px solid darkolivegreen;
+	width: 65px;
+	float: left;
+	margin-left: 8%;
+	position: relative;
+}
+.poem4 {
+	border-right: 1px solid indianred;
+	width: 65px;
+	float: left;
+	margin-left: 8%;
+	position: relative;
+}
+.poem1 {
+	top: 5%;
+}
+.poem2 {
+	top: 20%;
+}
+.poem3 {
+	top: 5%;
+}
+.poem4 {
+	top: 20%;
+}
+
+
+
+.bag2 {
+	float: left;
+	width: 95%;
+	height: 80%;
+	margin-left: 2.5%;
+	margin-top: 11%;
+	position: relative;
+	background-image: url(img/李白背景2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: auto;
+}
+.poemlb {
+	width: 95%;
+	height: 65%;
+	margin-left: 13%;
+	margin-top: 1%;
+}
+.poemlb p {
+	font-family: 李白诗;
+	font-size: 41px;
+	font-weight: bold;
+}
+.poemlb div {
+	width: 47px;
+	float: left;
+	margin-left: 3%;
+	position: relative;
+}
+.lbitr {
+	width: 100%;
+	margin-top: 14%;
+	overflow: hidden;
+}
+.lbitr-bag {
+	width: 92%;
+	height: 92%;
+	margin-top: 7%;
+	margin-left: 4%;
+}
+.lbitr-bic {
+	width: 20%;
+	height: 60%;
+	float: left;
+	top: 20%;
+}
+.lbitr .lbitr-bic img {
+	width: 100%;
+	height: 100%;
+	margin-right: 20%;
+}
+.lbitr-words {
+	height: 90%;
+	font-size: 45px;
+	font-family: 杨玉环介绍;
+	line-height: 46px;
+	color: initial;
+	margin-bottom: 5%;
+}

@@ -1,0 +1,306 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+@font-face {
+        font-family: fonts;
+        src: url("./TTF/name4.TTF"),url("./TTF/name4.eot"),url("./TTF/name4.woff"),url("./TTF/name4.otf");
+    }
+@font-face {
+        font-family: fonts1;
+         src: url("./TTF/name.TTF"),url("./TTF/name.eot"),url("./TTF/name.woff"),url("./TTF/name.otf");
+    }
+    }
+@font-face {
+        font-family: fonts2;
+        src: url("./TTF/name1.TTF"),url("./TTF/name1.eot"),url("./TTF/name1.woff"),url("./TTF/name4.otf");
+    }
+    }  
+body{
+	width: 100%;
+	height: 100%;
+	border:1px solid #CDC9A5;
+	background-color: #EEE8CD;
+}
+.wrapper{
+	width:100%;
+	height: 300px;
+	/*border:1px solid black;*/
+	background-image: url("./img/top1.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.nav{
+	width:100%;
+	height: 80px;
+	/*border:1px solid red;*/
+	background-color:#EEE8CD;
+	border: 1px solid #CDC9A5;
+	/*border:2px solid #D2B48C; */
+	position: relative;
+	z-index: 999;
+}
+#aa{
+    height:60px;
+    width:150px;
+    top:20px;
+    left:30px;
+    font-size:28px;
+    background-color:#EEE9BF;
+    position:absolute;
+    overflow:hidden;
+    text-align:center;
+    line-height:40px;
+}
+#bb,#ww,#xx
+{
+    height:120px;
+    width:150px;
+    top:60px;
+    left:0px;
+    background-color:#EEE9BF;
+    position:absolute;
+}
+table
+{
+    height:300px;
+    width:150px;
+    border:0px;
+    text-align:center;
+}
+#cc,#vv
+{
+    height:60px;
+    width:150px;
+    position:absolute;
+    left:0px;
+    margin-top: -49px;
+   /** top:20px;/
+    /*overflow:hidden;*/
+    z-index: 999;
+    background-color:#EEE9BF;
+    
+}
+#rr{
+	height:60px;
+    width:150px;
+    position:absolute;
+    left:0px;
+    margin-top: -75px;
+   /** top:20px;/
+    /*overflow:hidden;*/
+    z-index: 999;
+    background-color:#EEE9BF;
+}
+#ee,#tt,#nn
+{
+    height:60px;
+    width:150px;
+    position:absolute;
+    left:0px;
+    top:60px;
+    /*overflow:hidden;*/
+    z-index: 999;
+    background-color:#EEE9BF;
+    
+}
+#gg,#yy,#mm
+{
+    height:60px;
+    width:150px;
+    position:absolute;
+    left:0px;
+    top:119px;
+    overflow:hidden;
+    background-color:#EEE9BF;
+    z-index: 999;
+    
+}
+#qq,#zz{
+	height:60px;
+    width:150px;
+    top:20px;
+    left:30px;
+    font-size: 28px;
+    background-color:#EEE9BF;
+    position:absolute;
+    overflow:hidden;
+    text-align:center;
+    line-height:40px;
+    margin-left: 400px;
+}
+#zz{
+    margin-left: 800px;
+}
+#zz:hover{
+	cursor: pointer;
+
+}
+#aa,#qq,#zz{
+	margin-top: -7px;
+	font-size: 32px;
+	line-height: 60px;
+	left:75px;
+	background-color: #EEE8CD;
+	/*margin-left: 450px;*/
+}
+#mm,#tt,#gg{
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px; 
+}
+#mm,#tt,#gg,#aa,#qq,#zz,#yy,#ee,#tt,#nn,#rr,#cc,#vv,#bb,#ww,#xx{
+	font-family: fonts1;
+	font-size:37px;
+	font-weight: bolder;
+	font-color: black;
+}
+/*轮播图*/
+#map{
+	position: relative;
+	height: 600px;
+	border-top: 2px solid #CDC9A5;
+	/*border: 1px solid #bbb;*/
+	background-color:#EEE8CD;
+}
+#slidorion1 {
+	width: 1250px;			/* Set to slidorion width. Is equal to #slider + #accordion width */
+	height: 600px;			/* Set to slidorion height. Is equal to #slider and #accordion height */		position: absolute;
+	left: 2%;
+	float: left;
+	}
+#slider {
+	width: 105%;			/* Set to slider width */
+	height: 100%;			/* Set to slider height */
+	position: relative;
+	float: left;
+	overflow: hidden;		/* Hides the animations */
+}
+
+.slider-image {
+	position: relative;
+}
+
+#accordion {
+	width: 13%;
+	margin-left: 105%;			/* Set to accordion width */
+	height: 100%;			/* Set to image height */
+	font-family: Verdana;
+	background: #eee;
+	-webkit-box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+	-moz-box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+	box-shadow: -3px 0px 3px -1px rgba(51,51,51,0.3);
+	position: absolute;
+	/*right: 0;*/
+	/*z-index:900;*/
+	/*float: left;*/
+}
+
+#accordion .header {
+	height: 150px;
+*/	border: none;
+	border-top: 1px solid #ccc;
+	text-align: center;
+	background-color: #FDF5E6;
+}
+
+#accordion .header a {
+	background: none;
+	margin-top:48px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: fonts1;
+	display: block;
+	color: black;
+}
+
+#accordion .header a:hover {
+	cursor: pointer;
+
+}
+#map .name .name_1{
+	width:5%;
+	height: 100%;
+	margin-top: 1%;
+	/*border: 1px solid black;*/
+	margin-left: 83%;
+}
+#map .name .name_2{
+	width: 5%;
+	height: 100%;
+	margin-top:0%;
+	font-family: fonts;
+	/*border:1px solid black;*/
+	margin-left: 90%;
+}
+#map .name p{
+	font-size: 131px;
+	font-weight: 800;
+	font-family: fonts;
+}
+.middle{
+	width:100%;
+	height: 54px;
+	background-color: #EEE8CD;
+}
+.intor {
+	width: 100%;
+	height: 530px;
+/*	border: 1px solid black;*/
+	background-color: #EEE8CD;
+}
+.intor_changan {
+	width: 100%;
+}
+.img {
+	width: 40%;
+	height: 500px;
+	float: left;
+	margin-top: 1%;
+}
+.one,
+.two,
+.three {
+	width: 40%;
+	height: 450px;
+	float: left;
+	position: relative;
+	margin-top: 25px; 
+}
+.one {
+	margin-left: 5%;
+}
+.two,
+.three {
+	margin-left: -15%;
+
+}
+.one img,
+.two img,
+.three img {
+	width: 100%;
+	height: 100%;
+}
+.right {
+	width: 53%;
+	height: 450px;
+/*	border: 1px solid red;*/
+	float: left;
+	margin-top: 35px;
+	margin-left: 5%;
+	background-image: url("./img/87.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.right p {
+	font-size: 25px;
+	display: block;
+	margin-top: 2%;
+	font-weight: bold;
+	text-indent: 2em;
+}
